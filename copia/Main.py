@@ -1,6 +1,6 @@
 import threading
 
-class HubRun:
+class HubApp:
 	def __init__(self):
 		self.thread = threading.Thread(target = self.test, args = ())
 
@@ -11,16 +11,13 @@ class HubRun:
 		self.thread.start()
 
 	def run(self):
-		print('test')
 
 		return True
 
 	def pause(self):
-		print('test')
 
 		return None
 
 	def stop(self):
-		print('test')
 
 		return None

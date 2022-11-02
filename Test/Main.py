@@ -11,16 +11,15 @@ class HubApp:
 		self.thread.start()
 
 	def run(self):
-		print('run')
 
 		return True
 
 	def pause(self):
-		print('pause')
+		self.thread().pause()
 
 		return True
 
 	def stop(self):
-		print('stop')
+		#self.thread().stop()
 
 		return True
